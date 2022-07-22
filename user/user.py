@@ -12,7 +12,7 @@ import movie_pb2_grpc
 
 app = Flask(__name__)
 
-PORT = 3203
+PORT = 3004
 HOST = '0.0.0.0'
 
 with open('{}/data/users.json'.format("."), "r") as jsf:

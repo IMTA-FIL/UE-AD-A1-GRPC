@@ -2,4 +2,4 @@ FROM python:3.8-alpine
 WORKDIR /app
 ADD . /app/
 RUN pip install -r requirements.txt
-CMD ["python","booking.py"]
+CMD ["python","-u","booking.py"]

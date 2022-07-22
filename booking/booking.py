@@ -5,7 +5,7 @@ from werkzeug.exceptions import NotFound
 
 app = Flask(__name__)
 
-PORT = 3201
+PORT = 3003
 HOST = '0.0.0.0'
 
 with open('{}/databases/bookings.json'.format("."), "r") as jsf:
